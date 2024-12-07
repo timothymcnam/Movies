@@ -1,4 +1,4 @@
-// package com.myorg;
+// package com.recs;
 
 // import software.amazon.awscdk.App;
 // import software.amazon.awscdk.assertions.Template;
@@ -9,18 +9,18 @@
 // import org.junit.jupiter.api.Test;
 
 // example test. To run these tests, uncomment this file, along with the
-// example resource in java/src/main/java/com/myorg/MoviesStack.java
-// public class MoviesTest {
+// example resource in java/src/main/java/com/myorg/RecsStack.scala
+// public class RecsTest {
 
 //     @Test
 //     public void testStack() throws IOException {
 //         App app = new App();
-//         MoviesStack stack = new MoviesStack(app, "test");
+//         RecsStack stack = new RecsStack(app, "test");
 
 //         Template template = Template.fromStack(stack);
 
 //         template.hasResourceProperties("AWS::SQS::Queue", new HashMap<String, Number>() {{
-//           put("VisibilityTimeout", 300);
+//           put("Visi bilityTimeout", 300);
 //         }});
 //     }
 // }

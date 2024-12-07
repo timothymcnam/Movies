@@ -1,16 +1,16 @@
-package com.myorg;
+package com.recs
 
-import software.amazon.awscdk.App;
-import software.amazon.awscdk.Environment;
-import software.amazon.awscdk.StackProps;
+import software.amazon.awscdk.App
+import software.amazon.awscdk.Environment
+import software.amazon.awscdk.StackProps
 
-import java.util.Arrays;
+import java.util.Arrays
 
-public class MoviesApp {
-    public static void main(final String[] args) {
-        App app = new App();
+class RecsApp {
+    def main(args: List[String]) {
+        val app = new App()
 
-        new MoviesStack(app, "MoviesStack", StackProps.builder()
+//        new RecsStack(app, "RecsStack", StackProps.builder()
                 // If you don't specify 'env', this stack will be environment-agnostic.
                 // Account/Region-dependent features and context lookups will not work,
                 // but a single synthesized template can be deployed anywhere.
@@ -34,9 +34,9 @@ public class MoviesApp {
                 */
 
                 // For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
-                .build());
+//                .build())
 
-        app.synth();
+//        app.synth()
     }
 }
 
